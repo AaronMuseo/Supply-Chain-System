@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001568537398",
+    "project_id": "supplychain-e8b13",
+    "storage_bucket": "supplychain-e8b13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001568537398:android:1c866c7176548d600dc197",
+        "android_client_info": {
+          "package_name": "com.example.lets_see_what_happens"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCLGr4PBSj5cU7WrSYV3sHfJgp1zcau5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

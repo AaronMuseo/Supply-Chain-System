@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Cancelled</title>
+  <script>
+    window.onload = function() {
+      const params = new URLSearchParams(window.location.search);
+      const appPort = params.get('app_port');
+      if (appPort) {
+        window.location.href = "http://localhost:" + appPort + "/";
+      } else {
+        document.getElementById('manual-link').style.display = 'block';
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>Payment Cancelled</h1>
+  <p>Redirecting you back to the app...</p>
+  <div id="manual-link" style="display:none;">
+    <p>If you are not redirected, <a href="/phpmailer_backend/public">click here to return to the app</a>.</p>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+      "ext-json": "*",
+        "stripe/stripe-php": "^18.2",
+      "ext-curl": "*"
+    }
+}
+
